@@ -1,38 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+body {
+    background: rgb(216, 132, 198);
+}
+
+.hello {
+    display: block;
+    left: 300px;
+}
+
+a {
+    padding: 5px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(133, 190, 206);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+
+form {
+    background: rgb(111, 151, 189);
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 30px;
+    align-items: center;
+}
+
 .App {
-  text-align: center;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Footer__App{
+    height: 60px;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Data__Footer__App {
+    margin: 20px 0px 0px 1280px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.MiniLogo__Footer__App {
+    margin: 10px 0px 0px 10px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.Header_Main-Board {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Background__Header {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: blanchedalmond;
 }
+
+.Profile__Header {
+    width: 20%;
+    height: 100px;
+    background-color: bisque;
+}
+
+.User__Profile__Header {
+    display: flex;
+    height: 60px;
+}
+
+.Text__User__Profile__Header {
+    width: 150px;
+}
+
+.Foto__User__Profile__Header {
+    margin: 10px 0px 0px 10px;
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+}
+
+.Logo__Background__Header {
+    margin: 10px 0px 0px 10px;
+    width: 40px;
+    height: 40px;
+    background-color: darkblue;
+}
+
+.Name__Background__Header{
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.Main-Content__App {
+    display: flex;
+    min-height: 630px;
+}
+
+.List-Topic__Main-Content {
+    width: 15%;
+    background-color: aqua;
+}
+
+.Question__Main-Content {
+    width: 64%;
+    background-color:aliceblue;
+}
+
+.Question__Main-Content {
+    margin: 10px 10px 0px 10px;
+}
+
+.Search__Question__Main-Content {
+    display: flex;
+    width: 100%;
+}
+
+.Input__Search__Question__Main-Content {
+    width: 90%;
+}
+
+.Article__Question__Main-Content {
+    margin-top: 10px;
+    display: flex;
+}
+
+.User-Item__Article__Question__Main-Content {
+    width: 80px;
+    height: 110px;
+    background-color: brown;
+}
+
+.Text-Item__Article__Question__Main-Content {
+    height: 110px;
+    width: 90%;
+    background-color: bisque;
+}
+
+.Foto__User-Item__Article__Question__Main-Content {
+    height: 80px;
+    width: 80px;
+    background-color: burlywood;
+}
+
+.Name-Text__Text-Item__Article__Question__Main-Content{
+    margin-left: 10px;
+}
+
+.Content-Text__Text-Item__Article__Question__Main-Content {
+    margin: 5px 0px 0px 10px;
+}
+
+.Data__Text-Item__Article__Question__Main-Content {
+    margin: 40px 0px 0px 730px;
+}
+
+.Tools__Main-Content {
+    width: 20%;
+    background-color: white;
+}
+
+.Content__Tools {
+    margin: 10px 10px 20px 10px;
+    background-color: red;
+    width: 90%;
+    height: 50px;
+}
+
+.NameList__List-Topic__Main-Content {
+    margin: 10px 10px 10px 10px;
+}
+
+.ListContent__List-Topic__Main-Content {
+    margin: 10px 10px 10px 10px;
+}
+
+.Item__ListContent__List-Topic__Main-Content {
+    margin-bottom: 5px;
+}
+
+
+
