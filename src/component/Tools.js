@@ -4,10 +4,7 @@ import '../App.css'
 function Tools() {
   return (
     <div className='Tools__Main-Content'>
-      <div className='Content__Tools'></div>
-      <div className='Content__Tools'></div>
-      <div className='Content__Tools'></div>
-      <div className='Content__Tools'></div>
+      <div className='Content__Tools__Main-Content'></div>
     </div>
      
   );

@@ -11,7 +11,7 @@ function App() {
         <MainContent />
       </div>
       <div className='Footer__App'>
-        <div className='Data__Footer__App'>Data</div>
+        <div className='Data__Footer__App'>st4ndart.user@yandex.ru</div>
         <div className='MiniLogo__Footer__App'></div>
       </div>
     </div>
